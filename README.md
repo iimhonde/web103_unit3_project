@@ -40,7 +40,7 @@ Here's a walkthrough of implemented required features:
 [![Video Walkthrough](https://img.youtube.com/vi/dAh4saA-IX0/0.jpg)](https://youtu.be/dAh4saA-IX0)
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  GIF tool here
+CLICK ON THE THUMBNAIL TO ACCESS THE VIDEO ON YOUTUBE!! 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
