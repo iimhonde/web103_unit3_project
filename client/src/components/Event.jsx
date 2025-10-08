@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import EventsAPI from '../services/EventsAPI'
 import '../css/Event.css'
 
 const Event = (props) => {
@@ -10,7 +11,7 @@ const Event = (props) => {
     useEffect(() => {
         (async () => {
             try {
-                const eventData = await EventsAPI.getEventsById(props.id)
+                const eventData = await EventsAPI.getEventById(props.id)
                 setEvent(eventData)
             }
             catch (error) {

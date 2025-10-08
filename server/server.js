@@ -4,6 +4,8 @@ import favicon from 'serve-favicon'
 import dotenv from 'dotenv'
 
 // import the router from your routes file
+import locationRoutes from './routes/locations.js'
+import eventRoutes from './routes/events.js'
 
 
 dotenv.config()
@@ -23,6 +25,8 @@ else if (process.env.NODE_ENV === 'production') {
 }
 
 // specify the api path for the server to use
+app.use('/api/locations', locationRoutes)
+app.use('/api/events', eventRoutes)
 
 
 if (process.env.NODE_ENV === 'production') {
