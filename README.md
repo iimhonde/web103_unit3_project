@@ -37,7 +37,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[![Video Walkthrough](https://img.youtube.com/vi/dAh4saA-IX0/0.jpg)](https://youtu.be/dAh4saA-IX0)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  GIF tool here
@@ -50,9 +50,11 @@ GIF created with ...  GIF tool here
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
 
+*Challenges:* remembering how to implement event listeners in React. Initiating the databse locally due to issues with the package.json file 
+
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2025] [Ivie Imhonde ]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
